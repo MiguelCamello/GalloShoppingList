@@ -1,0 +1,11 @@
+git config --global user.name MiguelLima
+git config --global user.email mlimacamello@gmail.com
+
+npx create-expo-app@latest GalloShoppingList --template blank
+
+cd GalloShoppingList
+
+    instalar dependencia:
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+npx expo start --tunnel --android
