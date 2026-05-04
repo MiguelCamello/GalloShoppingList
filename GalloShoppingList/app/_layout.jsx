@@ -9,9 +9,9 @@ export default function RootLayout() {
             <stack>
                 <stack.screen
                     name="index" options={{ HeaderShown: false }} />
-                </stack.screen
-                    name="home" options={{ HeaderShown: false }}/>
-        </stack >
-    </>
-  )
+                <stack.screen
+                    name="home" options={{ HeaderShown: false }} />
+            </stack >
+        </>
+    )
 }
