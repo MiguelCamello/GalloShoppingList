@@ -6,7 +6,7 @@ export default function wealcome() {
     <View style={styles.container}>
       <View style={styles.containerImage} >
         <Image
-          source={require('.../assets/avatar.png')}
+          source={require('../assets/avatar.png')}
           style={styles.avatar}
         ></Image>
       </View>

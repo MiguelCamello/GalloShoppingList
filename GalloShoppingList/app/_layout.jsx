@@ -12,6 +12,7 @@ export default function RootLayout() {
                 <stack.screen
                     name="home" options={{ HeaderShown: false }} />
             </stack >
+            <statusbar style='light' />
         </>
     )
 }
