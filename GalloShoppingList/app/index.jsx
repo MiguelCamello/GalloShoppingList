@@ -16,7 +16,7 @@ export default function wealcome() {
           Monte sua listinha de compras, para nunca mais esquecer oque precisa comprar bb!
         </Text>
         <Link style={styles.button} href={"/home"}>
-          <text style={styles.buttonText}>Acessar</text>
+          <Text style={styles.buttonText}>Acessar</Text>
         </Link>
       </View>
 

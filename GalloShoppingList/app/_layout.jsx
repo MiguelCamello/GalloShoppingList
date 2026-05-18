@@ -6,13 +6,13 @@ import { StatusBar } from 'expo-status-bar'
 export default function RootLayout() {
     return (
         <>
-            <stack>
-                <stack.screen
+            <Stack>
+                <Stack.Screen
                     name="index" options={{ HeaderShown: false }} />
-                <stack.screen
+                <Stack.Screen
                     name="home" options={{ HeaderShown: false }} />
-            </stack >
-            <statusbar style='light' />
+            </Stack >
+            <Statusbar style='light' />
         </>
     )
 }
