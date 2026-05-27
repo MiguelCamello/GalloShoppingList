@@ -7,10 +7,10 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-  "scheme": "GalloShoppingList-scheme",
-  "experiments": {
-    "typedRoutes": true
-  },
+    "scheme": "galloshoppinglist-scheme",
+    "experiments": {
+      "typedRoutes": true
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",

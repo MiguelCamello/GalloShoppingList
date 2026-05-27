@@ -1,25 +1,25 @@
-import { link } from 'expo-router'
+import { Link } from 'expo-router';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
-export default function wealcome() {
+export default function Welcome() {
   return (
     <View style={styles.container}>
-      <View style={styles.containerImage} >
+      <View style={styles.containerImage}>
         <Image
           source={require('../assets/avatar.png')}
           style={styles.avatar}
-        ></Image>
+        />
       </View>
-      <View style={styles.container}>
-        <Text style={styles.title}>Lista do Galludo</Text>
+      <View style={styles.content}>
+        <Text style={styles.title}>Gallo Shopping List</Text>
         <Text style={styles.text}>
-          Monte sua listinha de compras, para nunca mais esquecer oque precisa comprar bb!
+          Monte sua lista de compras e não esqueça mais o que precisa
+          comprar ao sair de casa!!!
         </Text>
         <Link style={styles.button} href={"/home"}>
           <Text style={styles.buttonText}>Acessar</Text>
         </Link>
       </View>
-
     </View>
   );
 }
@@ -27,14 +27,12 @@ export default function wealcome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#000',
   },
   containerImage: {
     flex: 2,
     justifyContent: 'center',
-    alignItems: 'centar',
+    alignItems: 'center',
   },
   avatar: {
     width: 230,
@@ -54,7 +52,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     marginVertical: 20,
-    textAling: 'center',
+    textAlign: 'center',
   },
   text: {
     fontSize: 16,
@@ -73,6 +71,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 22,
     color: '#fff',
-    fontweight: 'bold'
+    fontWeight: 'bold'
   },
 });
